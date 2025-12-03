@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         Dictionary<int, int> aux = new Dictionary<int, int>();
@@ -14,6 +12,7 @@ public class Solution {
             }
             aux[complemento] = idx;
         }
+        throw new ArgumentException("None.");
         
     }
 }
