@@ -7,7 +7,7 @@ class Solution:
         total = 0
         n = len(s)
 
-        for i in range(len(s)):
+        for i in range(n):
             value = tabel[s[i]]
             if i < n -1 and value < tabel[s[i+1]]:
                 total -= value

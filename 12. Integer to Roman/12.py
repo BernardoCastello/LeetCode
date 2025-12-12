@@ -2,7 +2,6 @@ class Solution:
     def intToRoman(self, num: int) -> str:
         roman = ""
 
-
         while num >=1000:
             roman += "M"
             num -= 1000
@@ -55,11 +54,8 @@ class Solution:
             roman += "I"
             num -= 1
         
-
-
         return roman
         
-
 
 S = Solution()
 print(S.intToRoman(3800))

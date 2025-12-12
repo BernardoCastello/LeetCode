@@ -13,7 +13,7 @@ public class Solution {
         int total = 0;
         int n = s.Length;
 
-        for (int i = 0; i<n, i++){
+        for (int i = 0; i<n; i++){
             if (i < n-1 && romanMap[s[i]] < romanMap[s[i+1]]){
                 total -= romanMap[s[i]];
             } else {
