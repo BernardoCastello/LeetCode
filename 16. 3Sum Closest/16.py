@@ -28,7 +28,4 @@ class Solution:
         return closestSum
         
 
-S = Solution()
-print(S.threeSumClosest([1,1,1,1], 3))
-
                 
