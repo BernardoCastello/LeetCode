@@ -19,7 +19,6 @@ class Solution:
         if negativeCount % 2 == 0 or isZero:
             return absolute
         else:
-            print(minValue)
             return absolute - abs(2*minValue)
 
 
