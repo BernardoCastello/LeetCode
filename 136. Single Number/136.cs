@@ -1,0 +1,12 @@
+public class Solution {
+    public int SingleNumber(int[] nums) {
+        int answer = 0;
+        
+        foreach (int num in nums) 
+        {
+            answer ^= num;
+        }
+        
+        return answer;
+    }
+}
